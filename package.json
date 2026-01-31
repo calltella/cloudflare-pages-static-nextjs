@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "npx @cloudflare/next-on-pages --experimental-minify",
+    "build": "next build",
+    "pages:build": "npx @cloudflare/next-on-pages",
     "start": "serve out"
   },
   "dependencies": {
